@@ -3,7 +3,7 @@
 
 This document describes the code inside run_analysis.R.
 
-The code is splitted (by comments) in some sections:
+The code is split per these sections:
 
  * Helper functions
  * Constants
@@ -37,6 +37,8 @@ grepl is used to select only variables that contain mean or std.
 match is used to replace integers with strings for activity_type. 
 a 'for' loop and paste is used to combine the activity_type and subject, called 'act_sub'.
 aggregate is used to reduce each variable to the mean, for individual 'act_sub' values.
+
+Admission: I know that the 'act_sub' variable is not consistent with tidy data principles; however I have run out of time. 
 
 ## Writing tidy data to TXT
 The write.table function is used to write the two final tidy data sets to TXT. 
