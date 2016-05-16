@@ -1,12 +1,12 @@
 
 ## Variables
 
-The variables that were created during this data tidy: 
+The variables that were created during the tidying of this data: 
  * "data_type" - factor variable. Recording the original data type. Values are "train" or "test".
  * "activity_type" - factor variable. Type of activity per the 'activity lables.txt'. 6 values. 
- * "subject" - the number of the person. Values are from 1 to 30. 
+ * "subject" - the number of the person per 'subject_test.txt' and 'subject_train.txt'. Values are from 1 to 30. 
 
-The remaining 87 variables that are part of the raw data are described in the README and features.txt files in the original zip file. 
+The remaining 87 variables are part of the raw data and are described in the README and features.txt files in the original zip file. 
 
 ## Code Book
 
