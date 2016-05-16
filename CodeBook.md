@@ -1,4 +1,12 @@
 
+## Variables
+
+The variables that were created during this data tidy: 
+ * data_type - factor variable; recording the original data type. ""train"" or ""test""
+
+The variables that are part of the raw data are described in the README and features.txt files in the original zip file. 
+(
+
 ## Code Book
 
 This document describes the code inside run_analysis.R.
